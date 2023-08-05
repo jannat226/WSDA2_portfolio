@@ -284,11 +284,13 @@ section{
   background-color: #000000;
 } */
 .topnav{
+  text-decoration: none; 
   display: flex;
   flex-direction: row;
   background-color: #000000;
 }
-.topnav a {  
+.topnav a { 
+
   width:100%;
   float: left;
   display: block;
@@ -311,6 +313,7 @@ section{
 }
 
 .topnav .icon {
+
   display: none;
 }
 
@@ -338,7 +341,7 @@ section{
 .logo{
   width: 30vh;
   float:left;
-
+  color: purple !important;
   height:8vh;
   padding-right: 5vh;
   
@@ -349,4 +352,7 @@ section{
 } */
 i:hover{
   color: purple !important;
+}
+.logos a:visited{
+  color: black !important;
 }
