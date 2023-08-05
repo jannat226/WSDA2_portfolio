@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .container {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../css/Screenshot\ 2023-08-05\ at\ 1.36.02\ AM.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      p{
+        padding:3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h1>Contact Me</h1>
+        <br />
+        <p>
+        Enter your First name:
+        <input
+          type="text"
+          placeholder="First Name"
+         
+          required
+        /></p><br />
+       <p>Enter your Last name:<input
+          type="text"
+          placeholder="Last Name"
+          required
+        /></p> <br />
+        <p>Enter your email:<input
+          type="email"
+          placeholder="email"
+          required
+        /></p><br />
+    </p>Enter your Mobile Number:
+        <input type="number" placeholder="Mobile Number" required /></p><br />
+       <center><input type="submit" value="Send" id="button" /></center><br />
+      </form>
+    </div>
+    <div class="container mt-3">
+        <h3>Modal Example</h3>
+        <p>Click on the button to open the modal.</p>
+        
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+          Open modal
+        </button>
+      </div>
+    <!-- The Modal -->
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Welcome !!</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          The Modal component is a dialog box/popup window that is displayed on top of the current page:
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+  </body>
+</html>
